@@ -1,3 +1,5 @@
+from operator import truediv
+
 print("hello world")
 
 a = "ahoj"
@@ -45,3 +47,6 @@ print(round(x))
 print(int(x))
 
 y = 5 + 5 * 2
+
+logicka = True
+l2 = False
