@@ -1,1 +1,8 @@
 Python
+
+random
+    #poznámky
+
+Komandy
+    "print()" = napíše něco  funkce: "print(Hello world)" = v konzoli: Hello World
+    "a =" =  funkce: a = "ahoj"   "a" = "ahoj"
