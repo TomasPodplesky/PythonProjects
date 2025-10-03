@@ -43,3 +43,5 @@ print(e)
 x = 5.64
 print(round(x))
 print(int(x))
+
+y = 5 + 5 * 2
