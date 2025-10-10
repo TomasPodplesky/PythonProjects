@@ -32,15 +32,16 @@ print(type(vysledek))
 #cisla
 
 a = 5
-b = 7
+b = 76530
 c= a + b
 d = a / c
 e = a ** 2 #mocnina
 f = a ** (1/2) #odmocnina
-i = a % b # dělitelnost
+i = a % b #zbytek po celočíselném dělení
 print(c)
 print(d)
 print(e)
+print(i)
 
 x = 5.64
 print(round(x))
@@ -50,3 +51,9 @@ y = 5 + 5 * 2
 
 logicka = True
 l2 = False
+llll = logicka and l2 or logicka
+
+llllllllll = logicka * l2 + logicka
+print(type(logicka))
+
+print(not logicka)
