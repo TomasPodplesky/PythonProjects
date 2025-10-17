@@ -32,18 +32,28 @@
 # for i in range(5):
 #     for j in range(10):
 #         print(str(i)+ "," +str(j))
+# a = 0
+# while a == 0:
+#     x = input("napiš číslo: ")
+#     try:
+#         a = int(x)
+#     except:
+#         a = 0
+# print(a)
+#
+#
+# for i in range(10):
+#     print(i)
+#     if i > 5:
+#         break
+#     print("ahoj")
+# print("cigan")
 a = 0
-while a == 0:
-    x = input("napiš číslo: ")
+while True:
+    x = input("napis cislo: ")
     try:
         a = int(x)
+        break
     except:
-        a = 0
+        pass
 print(a)
-
-
-for i in range(10):
-    print(i)
-    if i > 5:
-        continue
-    print("ahoj")
