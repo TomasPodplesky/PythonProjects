@@ -13,3 +13,6 @@ for i in range (5, 12):
     soucet = soucet + i
 print(soucet)
 
+# index největšího prvku
+#
+# 
