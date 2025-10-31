@@ -41,3 +41,6 @@ print(promenna[12:8:-2])
 print(promenna[8:])
 
 print(promenna[:7:-1])
+print(promenna[::-1])
+
+print(promenan.index(",")) #zjistí na které pozici je ","
