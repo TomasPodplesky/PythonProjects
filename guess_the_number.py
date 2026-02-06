@@ -1,7 +1,6 @@
 import numpy as np
 
-for i in range(10):
-    cislo_hadane = np.random.randint(1,20)
+cislo_hadane = np.random.randint(1,20)
 
 while(True):
     cislo_x = input("hadej cislo: ")
