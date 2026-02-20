@@ -8,14 +8,14 @@ def kvadr(a,b,c):
         print(vysledek_text)
         vysledek = [x1, x2]
     elif(D<0):
+        vysledek_text = "nemá řešení"
+        print(vysledek_text)
+        vysledek = []
+    elif(D==0):
         x1 = (-b+pow(D,2))/2*a
         vysledek_text = "řešení je: " +str(x1)
         print(vysledek_text)
         vysledek = [x1]
-    elif(D==0):
-        vysledek_text = "nemá řešení"
-        print(vysledek_text)
-        vysledek = []
     return vysledek
 
 #kvadr(1,3,1)
