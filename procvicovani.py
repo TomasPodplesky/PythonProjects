@@ -40,3 +40,4 @@ while(True):
         print("nezadal jsi číslo zadej znovu")
 
 prvocislo(zadane)
+
